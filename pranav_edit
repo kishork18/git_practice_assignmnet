@@ -1,0 +1,18 @@
+function checkPrime(num){
+        let fac=0;
+        for(let i=1; i<=num; i++){
+            if(num%i==0){
+                fac++;
+            }
+        }if(fac==2){
+            return true;
+        }else{
+            return false;
+        }
+    
+    }
+if(checkPrime(5)==true){
+  console.log("It is Prime")
+}else{
+  console.log("It is not Prime")
+}
